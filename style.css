@@ -8,12 +8,9 @@ header {
     align-items: center;
     color: #ffffff;
 }
-.alura-start {
-    left: 173px;
-    top: 30px;
-    font-size: 30px;
-    padding: 15px 0;
-    color: #ffffff;
+.alurastart-header {
+    margin-top: 9px;
+    width: 150px;
 }
 .header-lista-item {
     display: inline-block;
@@ -56,6 +53,7 @@ header {
 .colegio-img {
     width: 30%;
     margin-left: 10px;
+    border-radius: 5px;
 }
 
 
@@ -68,6 +66,11 @@ header {
     font-weight: bold;
     margin: 0 0 20px 12.5%;
 }
+/* ao inves de usar 2 caixas, poderia usar:
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+e usar <span> no html para quebra de coluna
+*/
 .estudantes-dados-1 {
     display: flex;
     justify-content: space-evenly;
@@ -113,4 +116,10 @@ header {
 footer {
     width: 100%;
     background: #000000;
+}
+.alurastart-footer {
+    width: 150px;
+    margin: 0 auto 0 auto;
+    display: block;
+    padding: 9px 0 9px 0;
 }
