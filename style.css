@@ -123,7 +123,7 @@
 
 
 
-@media (max-width:390px){
+@media (max-width:420px){
     header {
         width: 100vw;
         display: grid;
