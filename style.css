@@ -146,10 +146,10 @@
 
     .escola {
         width: 100vw;
-        height: 100vh;
         display: grid;
         grid-template-columns: 6% 88% 6%;
         background: linear-gradient(360deg, var(--amarelo-fundo) 0%, var(--azul-fundo) 101.56%, var(--azul-fundo) 101.57%);
+        padding-bottom: 3vh;
     }
     .escola-texto {
         font-size: 1em;
