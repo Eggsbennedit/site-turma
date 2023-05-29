@@ -229,7 +229,7 @@
     }
 }
 
-@media (min-width:640px) and (orientation: landscape){
+@media (max-width:915px) and (orientation: landscape){
     header {
         width: 100vw;
         display: grid;
